@@ -1,28 +1,28 @@
 class Actual < Formula
   desc "ADR-powered AI context file generator"
   homepage "https://cli.actual.ai"
-  version "0.1.5"
+  version "0.2.0"
   license "UNLICENSED"
 
   on_macos do
     on_arm do
       url "https://github.com/actual-software/actual-releases/releases/download/v#{version}/actual-darwin-arm64.tar.gz"
-      sha256 "eb71a539cfb4de8b92e4633f14117371339bcc53587259fcd1b427ff6c4ef547"
+      sha256 "edcc2386019bc6d457470805b84827ad704a86df332334a62222fcece5977e04"
     end
     on_intel do
       url "https://github.com/actual-software/actual-releases/releases/download/v#{version}/actual-darwin-x64.tar.gz"
-      sha256 "558b24e3a1308a004b54e27750407c6347fc56d14c388b95d77c7eaa5ab7351b"
+      sha256 "b70929cc7a076132bd20d64cc1d31b011ab43d15d5592b5f78d6c9d3b971d27d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/actual-software/actual-releases/releases/download/v#{version}/actual-linux-arm64.tar.gz"
-      sha256 "52cbecd3d519c17b699354eda6bac99daea008987f8a57ce482ae5a0a0e7e0f0"
+      sha256 "b3b48d4b7b2c470f71cfa3f52189a948d5c609011b8499042d24289cb9eca060"
     end
     on_intel do
       url "https://github.com/actual-software/actual-releases/releases/download/v#{version}/actual-linux-x64.tar.gz"
-      sha256 "7dafb898b3700b01c50ef81484444ef75f7d2e906fedf96f77d4e183cee73c7b"
+      sha256 "52fbe31939f0849613a981db0e562382cf1b0f1b735231b47756a2c0f4186942"
     end
   end
 
